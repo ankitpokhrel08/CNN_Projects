@@ -16,30 +16,6 @@ A Streamlit web application for detecting emotions from facial images using a tr
 - **Output**: Emotion classification with confidence scores
 - **Emotions**: Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
 
-## Installation
-
-1. **Clone or navigate to this directory**
-
-2. **Install dependencies**:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Ensure model file exists**:
-   Make sure `model.pkl` is in the same directory as `app.py`
-
-## Usage
-
-1. **Run the Streamlit app**:
-
-   ```bash
-   streamlit run app.py
-   ```
-
-2. **Open your browser** and go to `http://localhost:8501`
-
-3. **Upload an image** containing a face and get emotion predictions!
 
 ## Model Code Reference
 
@@ -68,21 +44,3 @@ emotion_index = prediction[0].argmax()
 - Ensure the face is clearly visible
 - Frontal view works best
 - Single face per image preferred
-
-## Requirements
-
-- Python 3.7+
-- Streamlit
-- OpenCV
-- NumPy
-- Pillow
-- TensorFlow/Keras (for model loading)
-
-## Troubleshooting
-
-If you encounter issues:
-
-1. **Model not found**: Ensure `model.pkl` is in the correct directory
-2. **Import errors**: Install all requirements using `pip install -r requirements.txt`
-3. **Image processing errors**: Make sure uploaded images are valid image files (jpg, png, jpeg)
-

@@ -21,10 +21,10 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     try:
-        model = pickle.load(open('model.pkl', 'rb'))
+        model = pickle.load(open('emotion.pkl', 'rb'))
         return model
     except FileNotFoundError:
-        st.error("Error: model.pkl not found. Please ensure the model file is in the same directory.")
+        st.error("Error: emotion.pkl not found. Please ensure the model file is in the same directory.")
         st.stop()
 
 model = load_model()
