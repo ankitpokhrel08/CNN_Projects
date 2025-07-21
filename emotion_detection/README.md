@@ -86,6 +86,3 @@ If you encounter issues:
 2. **Import errors**: Install all requirements using `pip install -r requirements.txt`
 3. **Image processing errors**: Make sure uploaded images are valid image files (jpg, png, jpeg)
 
-## License
-
-This project is for educational purposes.

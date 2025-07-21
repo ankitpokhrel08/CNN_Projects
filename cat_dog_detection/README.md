@@ -118,10 +118,3 @@ cat-dog-prediction/
 - Supported formats: JPG, JPEG, PNG
 - Try a different image or check image file integrity
 
-## Future Improvements
-
-- [ ] Add support for multiple image formats (GIF, WEBP)
-- [ ] Implement batch prediction for multiple images
-- [ ] Add model confidence visualization
-- [ ] Include example images for testing
-- [ ] Add data augmentation preview
