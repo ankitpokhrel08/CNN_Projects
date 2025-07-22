@@ -1,0 +1,13 @@
+# tensorflow
+numpy
+opencv-python
+pandas
+matplotlib
+requests
+selenium
+beautifulsoup4
+webdriver-manager
+scipy
+tqdm
+tensorflow-macos
+tensorflow-metal
